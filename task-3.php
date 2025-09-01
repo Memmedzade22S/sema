@@ -1,5 +1,5 @@
 <?php
-$n = (int)readline("Ədəd daxil edin: ");
-$rev = strrev((string)abs($n));
-echo "Tərs: " . $rev;
+$m = 1234;
+$ters = strrev((string)$m);
+echo "$ters\n";
 ?>
