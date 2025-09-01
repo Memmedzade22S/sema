@@ -1,5 +1,9 @@
 <?php
-$n = (int)readline("Ədəd daxil edin: ");
-$digits = str_split((string)abs($n));
-echo "Cəm: " . array_sum($digits);
+$p = 6754;
+$sum = 0;
+$reqemler = str_split((string)$p);
+foreach ($reqemler as $reqem) {
+    $sum += (int)$reqem;
+}
+echo "Cem = $sum\n";
 ?>
