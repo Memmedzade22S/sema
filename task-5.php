@@ -1,10 +1,10 @@
-<?php
 
-$n = (int)readline("Ədəd daxil edin: ");
-$str = (string)abs($n);
-if ($str === strrev($str)) {
-    echo "Palindromdur";
+<?php
+$q = 1221;
+$ters_q = strrev((string)$q);
+if ($q == $ters_q) {
+    echo "Eded palindromdur\n";
 } else {
-    echo "Palindrom deyil";
+    echo "Eded palindrom deyil\n";
 }
 ?>
