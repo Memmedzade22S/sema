@@ -7,3 +7,4 @@ if ($str === strrev($str)) {
 } else {
     echo "Palindrom deyil";
 }
+?>
