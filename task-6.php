@@ -1,5 +1,6 @@
 <?php
-
-$n = (int)readline("Ədəd daxil edin: ");
-$digits = str_split((string)abs($n));
-echo "Ən böyük rəqəm: " . max($digits);
+$r = 5682;
+$reqemler_r = str_split((string)$r);
+$max = max($reqemler_r);
+echo "En boyuk reqem = $max\n";
+?>
