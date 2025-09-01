@@ -1,6 +1,4 @@
 <?php
-
-$n = (int)readline("Ədəd daxil edin: ");
-$digits = str_split((string)abs($n));
-echo "Ən kiçik rəqəm: " . min($digits);
+$min = min($reqemler_r);
+echo "En kicik reqem = $min\n";
 ?>
