@@ -1,8 +1,10 @@
 <?php
-
-$n = (int)readline("Ədəd daxil edin: ");
-$digits = str_split((string)abs($n));
-foreach ($digits as $d) {
-    echo $d . " " . ($d % 2 == 0 ? "cütdür" : "təkdir") . PHP_EOL;
+foreach ($reqemler_r as $reqem) {
+    if ($reqem % 2 == 0) {
+        echo "$reqem-c ";
+    } else {
+        echo "$reqem-t ";
+    }
 }
+echo "\n";
 ?>
