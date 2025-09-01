@@ -1,11 +1,10 @@
 <?php
-
-$n = (int)readline("İkirəqəmli ədəd daxil edin: ");
+$n = 56; 
 if ($n < 10 || $n > 99) {
-    echo "Xəta: ədəd ikirəqəmli olmalıdır!";
+    echo "Xeta: eded ikireqemli olmalidir!\n";
 } else {
-    $tens = intdiv($n, 10);
-    $ones = $n % 10;
-    echo $tens . " " . $ones;
+    $onluq = intdiv($n, 10);
+    $teklik = $n % 10;
+    echo "$onluq $teklik\n";
 }
 ?>
